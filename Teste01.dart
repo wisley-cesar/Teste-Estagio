@@ -16,14 +16,16 @@
 
 
 
-// Ao final do processamento, qual será o valor da variável SOMA? O valor é 78
-main() {
-  int indece = 13;
-  int soma = 0;
+// Ao final do processamento, qual será o valor da variável SOMA? O valor é 91
+void main() {
+  int INDICE = 13;
+  int SOMA = 0;
+  int K = 0;
 
-  for (int k = 0; k < indece; k++) {
-    soma = soma + k;
+  while (K < INDICE) {
+    K = K + 1;
+    SOMA = SOMA + K;
   }
-  print(soma);
-  print('O valor final da variavel soma será ${soma}');
+
+  print(SOMA);
 }
